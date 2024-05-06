@@ -1,0 +1,33 @@
+.hero{
+    background: url(../../images/hero.webp) no-repeat center/cover;
+    height: 600px;
+    position: relative;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    color: white;
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    top: 25%;
+    left: 5%;
+    button{
+        width: 120px;
+        height: 40px;
+        border: 1px solid transparent;
+        color: black;
+        background: white;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+}
